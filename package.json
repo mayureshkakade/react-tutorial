@@ -1,0 +1,36 @@
+{
+  "name": "react-tutorial",
+  "version": "1.0.0",
+  "description": "A react tutorial from basic to advanced level.",
+  "scripts": {
+    "start:dev": "npx parcel index.html",
+    "start:prod": "npx parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayureshkakade/react-tutorial.git"
+  },
+  "keywords": [
+    "react",
+    "git",
+    "mayuresh"
+  ],
+  "author": "Mayuresh Kakade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayureshkakade/react-tutorial/issues"
+  },
+  "homepage": "https://github.com/mayureshkakade/react-tutorial#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

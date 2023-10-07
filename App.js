@@ -1,10 +1,5 @@
-// const reactRoot = ReactDOM.createRoot(document.getElementById("root"));
-// const myHeading = React.createElement(
-//   "h1",
-//   { id: "heading" },
-//   "Hello World From React!"
-// );
-// reactRoot.render(myHeading);
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 //Create following structure using react
 /*
@@ -19,6 +14,7 @@
 </div>
 </div>
 */
+
 const headings = [
   React.createElement("h1", {}, "I am h1 tag"),
   React.createElement("h2", {}, "I am h2 tag"),
