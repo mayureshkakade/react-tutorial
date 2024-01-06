@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A react tutorial from basic to advanced level.",
   "scripts": {
-    "start:dev": "npx parcel index.html",
-    "start:prod": "npx parcel build index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
